@@ -242,6 +242,62 @@
         <img src="assets/images/gallery-11.jpg" alt="Handmade floral crown" />
         <img src="assets/images/gallery-12.jpg" alt="Custom floral event arrangement" />
       </div>
+
+      <div
+        class="gallery-lightbox"
+        id="galleryLightbox"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true"
+        aria-labelledby="lightboxCaption"
+      >
+        <div class="gallery-lightbox-panel">
+          <button
+            class="lightbox-close"
+            id="lightboxClose"
+            type="button"
+            aria-label="Close gallery"
+            data-en="Close"
+            data-ro="Inchide"
+            data-aria-en="Close gallery"
+            data-aria-ro="Inchide galeria"
+          >
+            Close
+          </button>
+
+          <img class="lightbox-image" id="lightboxImage" src="" alt="" />
+
+          <div class="lightbox-toolbar">
+            <button
+              class="lightbox-nav"
+              id="lightboxPrev"
+              type="button"
+              aria-label="Previous image"
+              data-en="Previous"
+              data-ro="Anterior"
+              data-aria-en="Previous image"
+              data-aria-ro="Imaginea anterioara"
+            >
+              Previous
+            </button>
+
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+
+            <button
+              class="lightbox-nav"
+              id="lightboxNext"
+              type="button"
+              aria-label="Next image"
+              data-en="Next"
+              data-ro="Urmator"
+              data-aria-en="Next image"
+              data-aria-ro="Imaginea urmatoare"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- WHY CHOOSE -->
